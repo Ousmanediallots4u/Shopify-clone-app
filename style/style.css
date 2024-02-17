@@ -15,6 +15,7 @@ body {
 .image img {
     width: 200px;
     height: 100px;
+
 }
 
 
@@ -55,3 +56,211 @@ body {
     width: 350px;
     height: 300px;
   }
+
+  .second-image img:hover {
+    border-radius: 60% !important;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-top: 80px;
+    width: 90%;
+    margin-left: 40px;
+
+  }
+
+  .g-col-4 {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 0 10px; 
+    
+  }
+
+  @media (max-width: 768px) {
+    .g-col-4 {
+      flex: 0 0 calc(50% - 20px);
+    }
+  
+  }
+
+  @media (max-width: 480px) {
+    .g-col-4 {
+      flex: 0 0 calc(100% - 20px); 
+    }
+    .second-image img {
+        margin-right: 120px !important;
+    }
+    body {
+        width: 100%;
+    }
+    .container, .grid , .containe {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 50px;
+    }
+   
+  }
+
+
+  .containe {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+   margin: 10px 45px;
+
+  }
+
+  .logos {
+    margin: 20px 0;
+  }
+
+.Ceo {
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.ceo-two {
+    margin-top: 20px;
+    margin-bottom: 50px !important;
+}
+
+.ceo-three h3 {
+    margin: 20px;
+}
+.fouth-container {
+    background: linear-gradient(#054a49, #f1fff9);
+    padding: 60px 0;
+    width: 100%; /* Make the container fill the whole width */
+}
+
+.fouth-container:hover {
+    background: linear-gradient(#cfa1fc, #f1fff9);
+    color: #000000 !important;
+    transition-duration: 10s;
+}
+
+.fouth-container h1 {
+    color: #edede9;
+}
+
+.fouth-container h6 {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+    color: #fff;
+    width: 80%; /* Adjusted width for responsiveness */
+    padding: 10px 20px; /* Adjusted padding */
+    border-radius: 5px;
+    margin: 20px auto; /* Center the element */
+    text-align: center; /* Center the text */
+}
+
+
+
+.unorder-list a {
+    text-decoration: none;
+    color: #000000;
+}
+.last-container h1 {
+    margin: 40px 10%; /* Adjusted for responsiveness */
+  }
+        
+  .container {
+      text-align: center;
+  
+      padding: 20px; /* Added padding for better spacing */
+  }
+  
+  .container ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .unorder-list li {
+      margin-bottom: 20px; /* Adjusted for responsiveness */
+      padding-bottom: 20px; /* Adjusted for responsiveness */
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #054a49;
+  }
+  
+  .cont {
+      width: 80%;
+      margin: 0 auto; /* Centering the container */
+      padding-top: 10px; /* Adjusted for responsiveness */
+  }
+  
+  /* Adjusted image margins for responsiveness */
+  .image1 {
+      margin-left: 55.58%;
+  }
+  
+  .image2 {
+      margin-left: 63%;
+  }
+  
+  .image3 {
+      margin-left: 50%;
+  }
+  
+  .image4 {
+      margin-left:42.5%;
+  }
+
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .container {
+        padding: 10px; /* Adjusted padding */
+        margin-left: 80px;
+       
+        
+    }
+    .last-container h1 {
+      text-align: center;
+    }
+    
+    .unorder-list li {
+        margin-bottom: 10px; /* Adjusted margin */
+        padding-bottom: 10px; /* Adjusted padding */
+    }
+
+    .image1, .image2, .image3, .image4 {
+        margin-left: 0; /* Remove left margin for images */
+    }
+}
+  
+
+.final-container {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .final-container ul {
+    display: flex;
+    flex-wrap: wrap;
+   margin-right: 200px;
+    float: right;
+    list-style: none;
+    text-align: center;
+  
+  }
+
+  .final-container li {
+    margin-right: 40px;
+  }
+  .final-container a{
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 480px) {
+    .final-container {
+      text-align: center;
+       margin-left: 40%;
+       width: 100%;
+       
+      }
+    
+  
+}
